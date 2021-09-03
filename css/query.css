@@ -1,0 +1,18 @@
+@media(max-width: 768px){
+    .container{
+        width: max-content;
+        border: 1px solid red;
+    }
+    .main-content{
+        display: grid;
+        grid-template-rows: 1fr 1fr max-content;
+        row-gap: 1.5rem;
+        width: max-content;
+    }
+    .calculator{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        width: max-content;
+        gap: 1rem;
+    }
+}

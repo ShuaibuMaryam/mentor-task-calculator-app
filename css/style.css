@@ -37,6 +37,6 @@
     font-weight: bold;
     padding: .3rem;
 }
-.calculator .reset{
-    grid-template-areas: ;
+.calculator #reset{
+    grid-template-areas: 5 / 1 / 6 / 4;
 }
