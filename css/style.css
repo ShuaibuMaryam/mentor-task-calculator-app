@@ -5,8 +5,7 @@
 }
 .container{
     width: 80%;
-    border: 1px solid;
-    margin: 0 auto;
+    margin: 6rem auto;
     padding: 1.5rem;
 }
 .main-content{
@@ -15,7 +14,6 @@
     row-gap: 1.5rem;
     width: 40%;
     margin: 0 auto;
-    border: 1px solid black;
     padding: 1rem;
 }
 .result-display{
@@ -38,5 +36,6 @@
     padding: .3rem;
 }
 .calculator #reset{
+    display: grid;
     grid-template-areas: 5 / 1 / 6 / 4;
 }

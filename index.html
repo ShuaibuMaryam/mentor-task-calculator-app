@@ -15,29 +15,30 @@
                 <h3>calc</h3>
             </div>
             <div class="result-display">
-                <h3>0</h3>
+                <h3 class="result">0</h3>
             </div>
             <div class="calculator">
                 <button>7</button>
                 <button>8</button>
                 <button>9</button>
-                <button id="delete">Del</button>
+                <button data-action="clear">Del</button>
                 <button>4</button>
                 <button>5</button>
                 <button>6</button>
-                <button>+</button>
+                <button class="key-operetor" data-action="add">+</button>
                 <button>1</button>
                 <button>2</button>
                 <button>3</button>
-                <button>-</button>
-                <button>.</button>
+                <button class="key-operetor" data-action="subtract">-</button>
+                <button data-action="decimal">.</button>
                 <button>0</button>
-                <button>/</button>
-                <button>x</button>
-                <button id="reset">Reset</button>
-                <button id="equals-to">=</button>
+                <button class="key-operetor" data-action="divide">/</button>
+                <button class="key-operetor" data-action="multiply">&times</button>
+                <button data-action="delete">Reset</button>
+                <button data-action="calculate">=</button>
             </div>
         </div>
     </div>
+    <script src="./js/script.js"></script>
 </body>
 </html>
